@@ -16,6 +16,7 @@ class servicesTest {
 
     @Test
     @Tag("A")
+    @Tag("B")
     void getNameTestForZero() {
         services service = new services();
         String result = service.getName(0);  // Test with 0
